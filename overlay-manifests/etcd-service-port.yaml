@@ -3,6 +3,8 @@ kind: Service
 metadata:
   name: etcd
   namespace: openshift-etcd
+  labels:
+    k8s-app: etcd
 spec:
   ports:
     - name: etcd

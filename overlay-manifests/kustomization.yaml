@@ -1,6 +1,3 @@
-bases:
-- ../home/rnoriega/enhancement/generatedManifests/ 
-
 patches:
 - etcd-service-port.yaml
 - etcd-host-service-port.yaml
