@@ -5,5 +5,3 @@ patches:
 - etcd-service-port.yaml
 - etcd-host-service-port.yaml
 
-components:
-- ../profile-manifests/
