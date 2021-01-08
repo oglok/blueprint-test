@@ -7,6 +7,7 @@ metadata:
     k8s-app: etcd
 spec:
   ports:
+    - $patch: replace
     - name: etcd
       port: 2378
       protocol: TCP

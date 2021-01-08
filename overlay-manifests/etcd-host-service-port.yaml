@@ -5,6 +5,7 @@ metadata:
   namespace: openshift-etcd
 spec:
   ports:
+    - $patch: replace
     - name: etcd
       port: 2378
       protocol: TCP
